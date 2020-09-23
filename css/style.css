@@ -53,13 +53,24 @@ table {
     border: 2px solid #000000;
 }
 
+th, td {
+  text-align: center;
+  border-top: 2px #000;
+  padding: 10px
+}
+
 .colhead {
   background-color: #7e0830;
-  color: #FFFFFF;
+  color: #fff;
+  min-width: 125px;
+  padding: 10px;
+  margin: auto;
+  text-transform: uppercase;
 }
 
 .rowhead {
-
+  border-top: solid 2px #000;
+  border-right: solid 2px #000;
 }
 
 td {
@@ -68,6 +79,18 @@ td {
 
 tr {
 
+}
+
+tr:nth-child(even) {
+  background: #d1d1d1;
+}
+
+tr:nth-child(odd) {
+  background: transparent;
+}
+
+tr:hover {
+  background: rgba(126, 8, 48, 0.25);
 }
 
 * {
