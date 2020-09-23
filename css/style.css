@@ -24,6 +24,12 @@ main {
 h1 {
   color: #c12258;
   font-size: 2em;
+  text-align: center;
+  line-height: 4em;
+}
+
+*:focus { 
+  border: 3px dashed #417243;
 }
 
 caption {
@@ -31,11 +37,14 @@ caption {
 }
 
 p {
-
+  padding-top: 15px
 }
 
 a {
-
+  font-size: 16px;
+  color: #b21f50;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 
 table {
@@ -64,7 +73,7 @@ tr {
 }
 
 thead tr:first-child th:first-child {
-    
+
 }
 
 footer {
