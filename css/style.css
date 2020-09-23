@@ -103,14 +103,6 @@ tr td {
   border-top: 2px solid #000;
 }
 
-td {
-  
-}
-
-tr {
-
-}
-
 tr:nth-child(even) {
   background: #d1d1d1;
 }
@@ -121,14 +113,6 @@ tr:nth-child(odd) {
 
 tr:hover {
   background: rgba(126, 8, 48, 0.25);
-}
-
-* {
-
-}
-
-thead tr:first-child th:first-child {
-
 }
 
 footer {
