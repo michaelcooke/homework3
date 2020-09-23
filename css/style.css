@@ -106,8 +106,12 @@ thead tr:first-child th:first-child {
 
 footer {
   width:100%;
-  background:#000000;
+  background:#000;
   text-align:center;
-  color: #FFFFFF;
+  color: #fff;
+  min-height: 75px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
 }
 
